@@ -1,0 +1,11 @@
+{
+  "name": "MarkdownScript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/lshqqytiger/MarkdownScript.git",
+  "author": "Seunghoon Lee <lshqqytiger@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0.25"
+  }
+}

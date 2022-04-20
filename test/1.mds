@@ -1,0 +1,12 @@
+# MarkdownScript
+
+## Multi-line
+
+^- for(let i = 0; i < 10; i++)
+    appendl(`## ${i}`);
+-^
+
+## Single-line
+
+1 + 2 = ^(1 + 2)^
+24 = 0x^((24).toString(16))^
