@@ -10,3 +10,15 @@
 
 1 + 2 = ^(1 + 2)^
 24 = 0x^((24).toString(16))^
+
+## Function
+
+### Definition
+
+^f foo(a, b)
+    return `${a} and ${b}`;
+f^
+
+### Call
+
+^(foo("one", "two"))^
