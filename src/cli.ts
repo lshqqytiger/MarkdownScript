@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from "fs";
 
 if (!process.argv[2]) throw new Error("Input file not specified");
