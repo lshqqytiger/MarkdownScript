@@ -22,3 +22,13 @@ f^
 ### Call
 
 ^(foo("one", "two"))^
+
+### ASCII Art
+
+^-
+
+const figlet = require("figlet");
+appendl(figlet.textSync("Test"));
+
+-^
+
