@@ -42,9 +42,9 @@ for (const i of stream)
 
 fs.writeFileSync(output || process.argv[2].replace(".mds", ".md"), compiled);
 
-function append(text: string) {
-  compiled += text;
+function append(text: string, end: string = "") {
+  compiled += text + end;
 }
 function appendl(text: string) {
-  append(`${text}\n`);
+  append(text, "\n");
 }
